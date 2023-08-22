@@ -37,6 +37,7 @@ export default function RootLayout({
               <Header />
               <section className={styles.container}>{children}</section>
           </AppProvider>
+          <script src="/sw.js"></script>
       </body>
     </html>
   )
