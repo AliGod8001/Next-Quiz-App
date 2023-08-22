@@ -1,0 +1,26 @@
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin-top: 7px;
+  color: var(--title-color);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.text {
+  color: var(--text-color);
+  font-weight: 400;
+  font-size: 14px;
+}

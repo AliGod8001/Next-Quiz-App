@@ -1,0 +1,24 @@
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.title {
+  color: var(--title-color);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.text {
+  color: var(--sub-text-color);
+  font-weight: 400;
+  font-size: 15px;
+  transition: var(--transition);
+
+  &:hover {
+    color: var(--sub-title-color);
+  }
+}

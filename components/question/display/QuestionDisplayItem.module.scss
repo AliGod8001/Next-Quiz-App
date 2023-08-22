@@ -1,0 +1,16 @@
+.item {
+  width: calc(50% - 15px);
+}
+
+.card {
+  border: 1px solid transparent;
+  color: var(--title-color);
+  transition: var(--transition);
+  cursor: pointer;
+
+  &:has(input:checked) {
+    color: var(--primary-color);
+    background-color: (--primary-subtle-color);
+    border-color: var(--primary-color);
+  }
+}

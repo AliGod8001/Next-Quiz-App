@@ -1,0 +1,19 @@
+.header {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 15px;
+  margin: 10px auto 0 auto;
+  border-radius: var(--main-radius);
+  box-shadow: var(--header-shadow);
+  background-color: var(--card-background);
+
+  .right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-left: auto;
+  }
+}

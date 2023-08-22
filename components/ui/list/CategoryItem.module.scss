@@ -1,0 +1,18 @@
+.link {
+  display: block;
+  padding: 30px;
+  border-radius: var(--main-radius);
+  border: 1px solid var(--card-background);
+  background-color: var(--card-background);
+  color: var(--title-color);
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  transition: var(--transition);
+
+  &:hover {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+  }
+}

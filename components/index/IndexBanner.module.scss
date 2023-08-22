@@ -1,0 +1,40 @@
+@import "../../styles/partials/mixin";
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  margin-bottom: 40px;
+  padding: 35px 50px;
+  // background-color: #ffc6ac;
+  // background-color: #fce8dd;
+  background: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #ee9ca7, #ffdde1); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(-45deg, #ffe8eb, #ffeef0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border-radius: var(--main-radius);
+}
+
+.body {
+  max-width: 50%;
+}
+
+.img {
+  max-width: 500px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.title {
+  margin: 0 0 10px 0;
+  color: #444040;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+.text {
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 30px;
+  @include lineText(3);
+}

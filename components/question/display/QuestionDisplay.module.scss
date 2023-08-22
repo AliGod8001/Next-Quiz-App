@@ -1,0 +1,40 @@
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  padding: 60px;
+  color: var(--title-color);
+  font-weight: 800;
+  font-size: 25px;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+
+  &-info {
+    position: absolute;
+    bottom: 15px;
+    left: 30px;
+    color: var(--text-color);
+    font-weight: 800;
+    font-size: 18px;
+
+    small {
+      font-weight: 400;
+      font-size: 12px;
+    }
+  }
+}
+
+.answers {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.button {
+  display: flex;
+  margin-left: auto;
+}

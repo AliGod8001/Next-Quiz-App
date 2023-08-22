@@ -1,0 +1,12 @@
+.wrapper {
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.box {
+  width: calc( 50% - 30px );
+}

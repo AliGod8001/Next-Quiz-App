@@ -1,0 +1,19 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.title {
+  margin-bottom: 10px;
+  color: var(--title-color);
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.text {
+  color: var(--text-color);
+  font-weight: 300;
+  font-size: 16px;
+}

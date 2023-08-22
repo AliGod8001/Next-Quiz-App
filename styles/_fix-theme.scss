@@ -1,0 +1,94 @@
+.ant-input-affix-wrapper,
+.ant-picker,
+.ant-dropdown .ant-dropdown-menu, .ant-dropdown-menu-submenu .ant-dropdown-menu,
+.ant-modal .ant-modal-content,
+.ant-color-picker-trigger,
+.ant-input,
+.ant-popover .ant-popover-inner,
+.ant-popover .ant-popover-arrow:before,
+.ant-btn-default {
+    background-color: var(--card-background) !important;
+    border-color: var(--border-color);
+}
+
+.ant-input,
+.ant-modal .ant-modal-header {
+    background: transparent;
+    color: var(--title-color);
+}
+
+.ant-input:-webkit-autofill,
+.ant-input:-webkit-autofill:hover, 
+.ant-input:-webkit-autofill:focus, 
+.ant-input:-webkit-autofill:active  {
+    -webkit-box-shadow: 0 0 0 40px var(--card-background) inset !important;
+}
+
+.ant-input:-webkit-autofill {
+    -webkit-text-fill-color: var(--title-color) !important;
+}
+
+.ant-input::placeholder,
+.anticon.ant-input-password-icon,
+.ant-picker .ant-picker-input >input::placeholder,
+.ant-result .ant-result-subtitle,
+.ant-popconfirm .ant-popconfirm-message .ant-popconfirm-description,
+.ant-breadcrumb a {
+    color: var(--text-color) !important;
+}
+
+.ant-breadcrumb .ant-breadcrumb-separator {
+    color: var(--sub-text-color);
+}
+
+.ant-input-affix-wrapper .ant-input-prefix,
+.ant-form-item .ant-form-item-label >label,
+.ant-picker,
+.ant-picker .ant-picker-suffix >*,
+.ant-picker .ant-picker-input >input,
+.ant-color-picker .ant-color-picker-inner-content .ant-color-picker-input-container .ant-color-picker-format-select.ant-select-single .ant-select-selection-item,
+.ant-result .ant-result-title,
+.ant-popconfirm .ant-popconfirm-message .ant-popconfirm-title,
+.ant-btn-default,
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item,
+.ant-breadcrumb li:last-child,
+.ant-steps .ant-steps-item-finish>.ant-steps-item-container>.ant-steps-item-content>.ant-steps-item-title {
+    color: var(--title-color);
+}
+
+.ant-modal .ant-modal-close {
+    color: var(--title-color) !important;
+}
+
+.ant-form-item .ant-form-item-control-input-content {
+    text-align: left;
+}
+
+.ant-picker {
+    width: 100%;
+}
+
+.ant-slider .ant-slider-track {
+    background-color: var(--primary-color);
+}
+
+.ant-slider .ant-slider-handle::after {
+    box-shadow: 0 0 0 2px var(--primary-color);
+}
+
+.ant-modal .ant-modal-title {
+    color: inherit;
+}
+
+.ant-form-horizontal .ant-form-item-label {
+    min-width: 150px;
+    text-align: left;
+}
+
+.ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item-divider {
+    background-color: var(--sub-text-color);
+}
+
+.ant-steps .ant-steps-item-error>.ant-steps-item-container>.ant-steps-item-tail::after {
+    background-color: var(--title-color);
+}
