@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Script from 'next/script'
 
 import { Inter } from 'next/font/google'
 const inter = Inter({ subsets: ['latin'] })
@@ -37,7 +38,7 @@ export default function RootLayout({
               <Header />
               <section className={styles.container}>{children}</section>
           </AppProvider>
-          <script src="/sw.js"></script>
+          <Script src="/sw.js"></Script>
       </body>
     </html>
   )
