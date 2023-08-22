@@ -45,6 +45,13 @@
       "purpose": "maskable"
     }
   ],
+  "display_override": [
+    "browser",
+    "fullscreen",
+    "minimal-ui",
+    "standalone",
+    "window-controls-overlay"
+  ],
   "start_url": "/",
   "background_color": "#ffffff",
   "display": "standalone",
