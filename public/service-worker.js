@@ -1,6 +1,8 @@
 // This is the "Offline page" service worker
-
-const CACHE = "pwabuilder-page";
+if('function' === typeof importScripts) {
+  // importScripts('file.js');
+  importScripts('https://storage.googleapis.com/workbox-cdn/releases/5.0.0/workbox-sw.js');
+  const CACHE = "pwabuilder-page";
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
 const offlineFallbackPage = "ToDo-replace-this-name.html";
@@ -43,3 +45,4 @@ self.addEventListener('fetch', (event) => {
     })());
   }
 });
+}
